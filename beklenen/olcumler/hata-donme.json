@@ -1,0 +1,32 @@
+{
+ "aciklama": "4.2: düzeltmeden ÖNCEKİ canlı vardiya koşumları (2026-10-11, aynı test, müşteri ajanı stoppingDistance 0,1 m · acceleration 4 · angularSpeed 360). Birinci koşum yalnız ortalamayı yazdı; ikinci koşum müşteri başına süreyi ve takılan müşterinin konumunu yazdı.",
+ "birinci_kosum_ort_kapi_masa_s": 63.1,
+ "hesap_kapi_masa_s": 8.1,
+ "ikinci_kosum_musteri_kapi_masa_s": [
+  9.5,
+  9,
+  6.6,
+  5.9,
+  9.5,
+  6.5,
+  9.4,
+  10.5,
+  9.4,
+  9.6,
+  328.2,
+  187.3,
+  6.6,
+  372.3,
+  105.4,
+  5.9,
+  60.5,
+  8.5,
+  163.2,
+  10.4
+ ],
+ "ikinci_kosum_ort_s": 66.7,
+ "ikinci_kosum_en_uzun_s": 372.3,
+ "ikinci_kosum_60sn_ustu": 6,
+ "takilan_ornek": "m11 t1976 (2.8,2.2) hiz 0.48 kalan 0.33 · m11 t2006 (3.2,2.7) hiz 0.41 kalan 0.32 · m12 t2366 (-2.9,2.2) hiz 0.19 kalan 0.32",
+ "duzeltme": "stoppingDistance 0,3 m · acceleration 8 · angularSpeed 720"
+}

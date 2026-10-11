@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="4" result="Passed" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-11 16:23:53Z" end-time="2026-10-11 16:23:53Z" duration="0.3164286">
+  <test-suite type="TestSuite" id="1000" name="kafe-robot-ileri" fullname="kafe-robot-ileri" runstate="Runnable" testcasecount="19" result="Passed" start-time="2026-10-11 16:23:53Z" end-time="2026-10-11 16:23:53Z" duration="0.316429" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="EditMode" />
+    </properties>
+    <test-suite type="Assembly" id="1027" name="KafeIleri.Tests.EditMode.dll" fullname="kafe-robot-ileri/Library/ScriptAssemblies/KafeIleri.Tests.EditMode.dll" runstate="Runnable" testcasecount="18" result="Passed" start-time="2026-10-11 16:23:53Z" end-time="2026-10-11 16:23:53Z" duration="0.307772" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="3879611" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+        <property name="EditorOnly" value="True" />
+      </properties>
+      <test-suite type="TestSuite" id="1028" name="KafeIleri" fullname="KafeIleri" runstate="Runnable" testcasecount="18" result="Passed" start-time="2026-10-11 16:23:53Z" end-time="2026-10-11 16:23:53Z" duration="0.307261" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1029" name="Testler" fullname="KafeIleri.Testler" runstate="Runnable" testcasecount="18" result="Passed" start-time="2026-10-11 16:23:53Z" end-time="2026-10-11 16:23:53Z" duration="0.306953" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestFixture" id="1001" name="ClaudeSarjTestleri" fullname="KafeIleri.Testler.ClaudeSarjTestleri" classname="KafeIleri.Testler.ClaudeSarjTestleri" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-10-11 16:23:53Z" end-time="2026-10-11 16:23:53Z" duration="0.051851" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1002" name="PilEsigin_Altindayken_IlkGecis_SarjOlmali" fullname="KafeIleri.Testler.ClaudeSarjTestleri.PilEsigin_Altindayken_IlkGecis_SarjOlmali" methodname="PilEsigin_Altindayken_IlkGecis_SarjOlmali" classname="KafeIleri.Testler.ClaudeSarjTestleri" runstate="Runnable" seed="1838017850" result="Passed" start-time="2026-10-11 16:23:53Z" end-time="2026-10-11 16:23:53Z" duration="0.034223" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1003" name="SarjOlurken_MusteriGeldi_HicKabulEdilmemeli" fullname="KafeIleri.Testler.ClaudeSarjTestleri.SarjOlurken_MusteriGeldi_HicKabulEdilmemeli" methodname="SarjOlurken_MusteriGeldi_HicKabulEdilmemeli" classname="KafeIleri.Testler.ClaudeSarjTestleri" runstate="Runnable" seed="1819264760" result="Passed" start-time="2026-10-11 16:23:53Z" end-time="2026-10-11 16:23:53Z" duration="0.002791" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1004" name="ClaudeYolTestleri" fullname="KafeIleri.Testler.ClaudeYolTestleri" classname="KafeIleri.Testler.ClaudeYolTestleri" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-10-11 16:23:53Z" end-time="2026-10-11 16:23:53Z" duration="0.253458" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1006" name="KapidanHerMasaninOturmaNoktasinaYolVar" fullname="KafeIleri.Testler.ClaudeYolTestleri.KapidanHerMasaninOturmaNoktasinaYolVar" methodname="KapidanHerMasaninOturmaNoktasinaYolVar" classname="KafeIleri.Testler.ClaudeYolTestleri" runstate="Runnable" seed="310859965" result="Passed" start-time="2026-10-11 16:23:53Z" end-time="2026-10-11 16:23:53Z" duration="0.003477" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1005" name="TezgahtanHerMasaninServisNoktasinaYolVar" fullname="KafeIleri.Testler.ClaudeYolTestleri.TezgahtanHerMasaninServisNoktasinaYolVar" methodname="TezgahtanHerMasaninServisNoktasinaYolVar" classname="KafeIleri.Testler.ClaudeYolTestleri" runstate="Runnable" seed="1024195318" result="Passed" start-time="2026-10-11 16:23:53Z" end-time="2026-10-11 16:23:53Z" duration="0.000322" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[Saving results to: ~/.config/unity3d/DefaultCompany/kafe-robot-ileri/TestResults.xml
+]]></output>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

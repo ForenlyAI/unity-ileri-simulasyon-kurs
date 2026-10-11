@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: KafeVarliklari
+  m_EditorClassIdentifier: Unity.Addressables.Editor::UnityEditor.AddressableAssets.Settings.AddressableAssetGroup
+  m_GroupName: KafeVarliklari
+  m_GUID: 0200b3356194bc694982d972ee98afb4
+  m_SerializeEntries:
+  - m_GUID: a4f537864ae1c7d7da8d924ad180e01a
+    m_Address: KayitOzeti
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - kafe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b68cb59a6d4bd616ca2330fd4a86e963
+    m_Address: Masa
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - kafe
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d52e715c823f291a19802be170707fee
+    m_Address: Musteri
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - kafe
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 26742b2e69c3eb62ab4401e5d3a17e90, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: c94c9d7c2e010700cabfb36b1a0ef17a, type: 2}
+    - {fileID: 11400000, guid: f97a7c7066e7dda33b90000b0b15e36d, type: 2}

@@ -1,0 +1,6 @@
+Unity 6 için NUnit EditMode testi yaz (namespace KafeIleri.Testler, sınıf adı ClaudeYolTestleri).
+Sahne Assets/KafeIleri/Sahneler/KafeIleri.unity dosyasıdır; EditorSceneManager.OpenScene ile aç.
+Sahnede KafeNoktalari bileşeni var: public Transform[] noktalar; public int masaSayisi; public Vector3 Konum(int i).
+Nokta sırası: 0 bekleme yeri, 1 tezgâh, 2 şarj, 3 kapı, 4..9 masaların servis noktaları, 10..15 oturma noktaları.
+Test: tezgâhtan her masanın servis noktasına ve kapıdan her masanın oturma noktasına NavMesh.CalculatePath ile tam yol (PathComplete) olmalı,
+ve yol uzunluğu kuş uçuşu mesafenin en çok 1,6 katı olmalı. Yalnız dosyanın C# kodunu ver, açıklama yazma, kod bloğu işareti koyma.

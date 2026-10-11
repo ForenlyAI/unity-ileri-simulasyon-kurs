@@ -1,0 +1,10 @@
+{
+  "hedef": "Masa2Servis",
+  "once_m": 6.72,
+  "once_kose": 3,
+  "sonra_m": 6.84,
+  "sonra_kose": 4,
+  "sonra_durum": "PathComplete",
+  "fark_m": 0.12,
+  "kapi_durum": "PathPartial"
+}

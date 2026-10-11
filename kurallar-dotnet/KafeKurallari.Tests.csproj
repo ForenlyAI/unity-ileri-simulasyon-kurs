@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Unity'siz test: Unity projesindeki saf C# kuralları (Scripts/Kurallar) doğrudan derlenir.
+       Codespaces'te ve GitHub Actions'ta Unity lisansı gerekmeden koşar:  dotnet test kurallar-dotnet -->
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>disable</Nullable>
+    <IsPackable>false</IsPackable>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="../kafe-robot-ileri/Assets/KafeIleri/Scripts/Kurallar/*.cs" Link="Kurallar/%(Filename)%(Extension)" />
+    <None Include="../beklenen/olcumler/mesafeler.json" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="../beklenen/olcumler/vardiya-hizli.json" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="../beklenen/olcumler/kuyruk.json" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.11.1" />
+    <PackageReference Include="NUnit" Version="3.14.0" />
+    <PackageReference Include="NUnit3TestAdapter" Version="4.6.0" />
+  </ItemGroup>
+</Project>

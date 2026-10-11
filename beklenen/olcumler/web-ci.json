@@ -1,0 +1,16 @@
+{
+ "derleme_s": 1622,
+ "derleme_dk": 27.0,
+ "boyut_mb": 61.3,
+ "dosya": 26,
+ "wasm_mb": 45.5,
+ "data_mb": 12.2,
+ "kota": "CPUQuota 200%",
+ "tarayici_yukleme_s": 1.7,
+ "tarayici_hata": 0,
+ "zaman_carpani": 10,
+ "ci_adim": 15,
+ "ci_gizli": 3,
+ "ci_hedef": "WebGL",
+ "ci_not": "unity license activate --personal does NOT work here"
+}

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="4" result="Failed(Child)" total="4" passed="3" failed="1" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-11 16:23:08Z" end-time="2026-10-11 16:23:08Z" duration="0.3170276">
+  <test-suite type="TestSuite" id="1000" name="kafe-robot-ileri" fullname="kafe-robot-ileri" runstate="Runnable" testcasecount="19" result="Failed" site="Child" start-time="2026-10-11 16:23:08Z" end-time="2026-10-11 16:23:08Z" duration="0.317028" total="4" passed="3" failed="1" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="EditMode" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="Assembly" id="1027" name="KafeIleri.Tests.EditMode.dll" fullname="kafe-robot-ileri/Library/ScriptAssemblies/KafeIleri.Tests.EditMode.dll" runstate="Runnable" testcasecount="18" result="Failed" site="Child" start-time="2026-10-11 16:23:08Z" end-time="2026-10-11 16:23:08Z" duration="0.310130" total="4" passed="3" failed="1" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="3879127" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+        <property name="EditorOnly" value="True" />
+      </properties>
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestSuite" id="1028" name="KafeIleri" fullname="KafeIleri" runstate="Runnable" testcasecount="18" result="Failed" site="Child" start-time="2026-10-11 16:23:08Z" end-time="2026-10-11 16:23:08Z" duration="0.309706" total="4" passed="3" failed="1" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="TestSuite" id="1029" name="Testler" fullname="KafeIleri.Testler" runstate="Runnable" testcasecount="18" result="Failed" site="Child" start-time="2026-10-11 16:23:08Z" end-time="2026-10-11 16:23:08Z" duration="0.309413" total="4" passed="3" failed="1" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="TestFixture" id="1001" name="ClaudeSarjTestleri" fullname="KafeIleri.Testler.ClaudeSarjTestleri" classname="KafeIleri.Testler.ClaudeSarjTestleri" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-10-11 16:23:08Z" end-time="2026-10-11 16:23:08Z" duration="0.041886" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1002" name="PilEsigin_Altindayken_IlkGecis_SarjOlmali" fullname="KafeIleri.Testler.ClaudeSarjTestleri.PilEsigin_Altindayken_IlkGecis_SarjOlmali" methodname="PilEsigin_Altindayken_IlkGecis_SarjOlmali" classname="KafeIleri.Testler.ClaudeSarjTestleri" runstate="Runnable" seed="763732594" result="Passed" start-time="2026-10-11 16:23:08Z" end-time="2026-10-11 16:23:08Z" duration="0.027710" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1003" name="SarjOlurken_MusteriGeldi_HicKabulEdilmemeli" fullname="KafeIleri.Testler.ClaudeSarjTestleri.SarjOlurken_MusteriGeldi_HicKabulEdilmemeli" methodname="SarjOlurken_MusteriGeldi_HicKabulEdilmemeli" classname="KafeIleri.Testler.ClaudeSarjTestleri" runstate="Runnable" seed="1723913596" result="Passed" start-time="2026-10-11 16:23:08Z" end-time="2026-10-11 16:23:08Z" duration="0.002314" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1004" name="ClaudeYolTestleri" fullname="KafeIleri.Testler.ClaudeYolTestleri" classname="KafeIleri.Testler.ClaudeYolTestleri" runstate="Runnable" testcasecount="2" result="Failed" site="Child" start-time="2026-10-11 16:23:08Z" end-time="2026-10-11 16:23:08Z" duration="0.265957" total="2" passed="1" failed="1" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-case id="1006" name="KapidanHerMasaninOturmaNoktasinaYolVar" fullname="KafeIleri.Testler.ClaudeYolTestleri.KapidanHerMasaninOturmaNoktasinaYolVar" methodname="KapidanHerMasaninOturmaNoktasinaYolVar" classname="KafeIleri.Testler.ClaudeYolTestleri" runstate="Runnable" seed="832583814" result="Failed" start-time="2026-10-11 16:23:08Z" end-time="2026-10-11 16:23:08Z" duration="0.006054" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <failure>
+                <message><![CDATA[6 yol hatası:
+ - Kapı -> Masa 1 oturma: tam yol bulunamadı (durum: PathPartial)
+ - Kapı -> Masa 2 oturma: tam yol bulunamadı (durum: PathPartial)
+ - Kapı -> Masa 3 oturma: tam yol bulunamadı (durum: PathPartial)
+ - Kapı -> Masa 4 oturma: tam yol bulunamadı (durum: PathPartial)
+ - Kapı -> Masa 5 oturma: tam yol bulunamadı (durum: PathPartial)
+ - Kapı -> Masa 6 oturma: tam yol bulunamadı (durum: PathPartial)
+]]></message>
+                <stack-trace><![CDATA[at KafeIleri.Testler.ClaudeYolTestleri.HatalariBildir (System.Collections.Generic.List`1[T] hatalar) [0x0006a] in kafe-robot-ileri/Assets/KafeIleri/Tests/EditMode/ClaudeYolTestleri.cs:138
+at KafeIleri.Testler.ClaudeYolTestleri.KapidanHerMasaninOturmaNoktasinaYolVar () [0x00042] in kafe-robot-ileri/Assets/KafeIleri/Tests/EditMode/ClaudeYolTestleri.cs:75
+]]></stack-trace>
+              </failure>
+            </test-case>
+            <test-case id="1005" name="TezgahtanHerMasaninServisNoktasinaYolVar" fullname="KafeIleri.Testler.ClaudeYolTestleri.TezgahtanHerMasaninServisNoktasinaYolVar" methodname="TezgahtanHerMasaninServisNoktasinaYolVar" classname="KafeIleri.Testler.ClaudeYolTestleri" runstate="Runnable" seed="1581170232" result="Passed" start-time="2026-10-11 16:23:08Z" end-time="2026-10-11 16:23:08Z" duration="0.001163" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[Saving results to: ~/.config/unity3d/DefaultCompany/kafe-robot-ileri/TestResults.xml
+]]></output>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

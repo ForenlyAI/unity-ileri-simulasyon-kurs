@@ -1,0 +1,107 @@
+Aşağıdaki ClaudeSarjTestleri testini yazdın. Robot programını bilerek bozduk: pil azken, sırada bekleyen müşteri varsa şarja gitmek yerine müşteriye gidiyor
+(koşul: makine.Simdiki == Durum.Bekle && pil.Azaldi && sırada bekleyen yoksa). Senin iki testin de bu bozuk kodla GEÇTİ, yani hatayı yakalamadı.
+Nedeni: vardiyanın başında sırada müşteri yok. Testlere üçüncü bir test ekle (adı Sirada_Musteri_Varken_Pil_Azalinca_Once_Sarj):
+pil eşiğin hemen üstünde başlasın (baslangic 32, esik 30), müşteriler sık gelsin (ortalamaGelis 15), vardiya 1800 saniye.
+Günlükte "ServisYap > ServisBitti > Bekle" kaydından sonra pil azalmışsa bir sonraki kabul edilen geçiş "Bekle > PilAzaldi > SarjOl" olmalı;
+bunu denetlemek için RobotProgrami'yi değiştirmeden, her ServisBitti'den sonraki ilk kaydın "Bekle > MusteriGeldi > SiparisAl" olduğu ve o anda pilin
+eşiğin altında olduğu bir durum aramak yerine şu basit ölçütü kullan: vardiya boyunca en az bir "Bekle > PilAzaldi > SarjOl" geçişi olmalı ve
+VardiyaSonucu.enDusukPil 25'in altına inmemeli. Dosyanın tamamını (üç test) yeniden ver; yalnız C# kodu, açıklama ve kod bloğu işareti yok.
+
+using System;
+using System.Linq;
+using NUnit.Framework;
+
+namespace KafeIleri.Testler
+{
+    public class ClaudeSarjTestleri
+    {
+        private const int NoktaSayisi = 16;
+        private const double Mesafe = 5.0;
+
+        private static MesafeTablosu SabitMesafeTablosu()
+        {
+            var m = new double[NoktaSayisi, NoktaSayisi];
+            for (int i = 0; i < NoktaSayisi; i++)
+            {
+                for (int j = 0; j < NoktaSayisi; j++)
+                {
+                    m[i, j] = i == j ? 0.0 : Mesafe;
+                }
+            }
+            return new MesafeTablosu(m);
+        }
+
+        private static VardiyaAyar DusukPilliAyar()
+        {
+            return new VardiyaAyar
+            {
+                robotHizi = 1.0,
+                vardiya = 3600.0,
+                ortalamaGelis = 60.0,
+                pil = new PilAyar
+                {
+                    baslangic = 20.0,
+                    esik = 30.0,
+                    hedef = 90.0,
+                    yuruTuketim = 0.05,
+                    bekleTuketim = 0.01,
+                    sarjHizi = 0.5
+                }
+            };
+        }
+
+        private static string[] Parcala(string gecis)
+        {
+            return gecis.Split(new[] { " > " }, StringSplitOptions.None)
+                        .Select(p => p.Trim())
+                        .ToArray();
+        }
+
+        [Test]
+        public void PilEsigin_Altindayken_IlkGecis_SarjOlmali()
+        {
+            var ayar = DusukPilliAyar();
+            var tablo = SabitMesafeTablosu();
+
+            var (_, program) = HizliBenzetim.Kos(ayar, tablo);
+
+            Assert.That(program, Is.Not.Null, "RobotProgrami null döndü.");
+            Assert.That(program.makine, Is.Not.Null, "Durum makinesi null.");
+            var gunluk = program.makine.Gunluk;
+            Assert.That(gunluk, Is.Not.Null.And.Not.Empty, "Günlük boş; hiç geçiş kaydedilmemiş.");
+
+            var ilk = Parcala(gunluk[0]);
+            Assert.That(ilk.Length, Is.EqualTo(3), $"İlk günlük kaydı beklenen biçimde değil: \"{gunluk[0]}\"");
+            Assert.That(ilk[0], Is.EqualTo("Bekle"), $"İlk geçiş Bekle durumundan başlamalı: \"{gunluk[0]}\"");
+            Assert.That(ilk[1], Is.EqualTo("PilAzaldi"), $"İlk olay PilAzaldi olmalı; pil azken müşteri alınmamalı: \"{gunluk[0]}\"");
+            Assert.That(ilk[2], Is.EqualTo("SarjOl"), $"İlk geçiş SarjOl durumuna gitmeli: \"{gunluk[0]}\"");
+        }
+
+        [Test]
+        public void SarjOlurken_MusteriGeldi_HicKabulEdilmemeli()
+        {
+            var ayar = DusukPilliAyar();
+            var tablo = SabitMesafeTablosu();
+
+            var (_, program) = HizliBenzetim.Kos(ayar, tablo);
+
+            Assert.That(program, Is.Not.Null, "RobotProgrami null döndü.");
+            Assert.That(program.makine, Is.Not.Null, "Durum makinesi null.");
+            var gunluk = program.makine.Gunluk;
+            Assert.That(gunluk, Is.Not.Null, "Günlük null.");
+
+            var kabulEdilenler = gunluk
+                .Select((kayit, sira) => new { kayit, sira, parca = Parcala(kayit) })
+                .Where(x => x.parca.Length >= 3
+                            && x.parca[0] == "SarjOl"
+                            && x.parca[1] == "MusteriGeldi"
+                            && x.parca[2] != "RED")
+                .Select(x => $"#{x.sira}: {x.kayit}")
+                .ToList();
+
+            Assert.That(kabulEdilenler, Is.Empty,
+                "Şarj sırasında MusteriGeldi olayı kabul edilmemeli. Hatalı geçişler:\n" +
+                string.Join("\n", kabulEdilenler));
+        }
+    }
+}

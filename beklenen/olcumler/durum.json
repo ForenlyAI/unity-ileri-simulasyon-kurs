@@ -1,0 +1,11 @@
+{
+  "durum_sayisi": 4,
+  "gecis_sayisi": 5,
+  "tablo": ["Bekle > MusteriGeldi > SiparisAl", "SiparisAl > SiparisAlindi > ServisYap", "ServisYap > ServisBitti > Bekle", "Bekle > PilAzaldi > SarjOl", "SarjOl > PilDoldu > Bekle"],
+  "olasi_istek": 20,
+  "istek": 8,
+  "kabul": 5,
+  "red": 3,
+  "adimlar": ["Bekle > MusteriGeldi > SiparisAl", "SiparisAl > PilAzaldi > RED", "SiparisAl > SiparisAlindi > ServisYap", "ServisYap > PilAzaldi > RED", "ServisYap > ServisBitti > Bekle", "Bekle > PilAzaldi > SarjOl", "SarjOl > MusteriGeldi > RED", "SarjOl > PilDoldu > Bekle"],
+  "son": "Bekle"
+}

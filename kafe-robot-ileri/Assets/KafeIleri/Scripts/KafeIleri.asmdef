@@ -1,0 +1,12 @@
+{
+    "name": "KafeIleri",
+    "rootNamespace": "KafeIleri",
+    "references": ["Unity.AI.Navigation", "Unity.Addressables", "Unity.ResourceManager"],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "noEngineReferences": false
+}

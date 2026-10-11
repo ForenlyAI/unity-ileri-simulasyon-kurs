@@ -1,0 +1,19 @@
+# Unity
+kafe-robot-ileri/[Ll]ibrary/
+kafe-robot-ileri/[Tt]emp/
+kafe-robot-ileri/[Ll]ogs/
+kafe-robot-ileri/[Uu]serSettings/
+kafe-robot-ileri/[Oo]bj/
+kafe-robot-ileri/[Bb]uild/
+kafe-robot-ileri/Olcumler/
+kafe-robot-ileri/ServerData/
+kafe-robot-ileri/*.csproj
+kafe-robot-ileri/*.sln
+# dotnet
+kurallar-dotnet/bin/
+kurallar-dotnet/obj/
+kurallar-dotnet/TestResults/
+# derleme çıktıları
+*-web/
+*.raw
+__pycache__/

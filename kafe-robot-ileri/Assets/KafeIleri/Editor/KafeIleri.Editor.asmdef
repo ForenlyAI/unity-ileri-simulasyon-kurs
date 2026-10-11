@@ -1,0 +1,8 @@
+{
+    "name": "KafeIleri.Editor",
+    "rootNamespace": "KafeIleri.EditorAraclari",
+    "references": ["KafeIleri", "Unity.AI.Navigation", "Unity.AI.Navigation.Editor", "Unity.Addressables", "Unity.Addressables.Editor", "Unity.ResourceManager"],
+    "includePlatforms": ["Editor"],
+    "excludePlatforms": [],
+    "autoReferenced": true
+}

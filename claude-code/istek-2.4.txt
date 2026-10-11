@@ -1,0 +1,10 @@
+Unity 6 için NUnit EditMode testi yaz (namespace KafeIleri.Testler, sınıf adı ClaudeSarjTestleri). Unity sahnesi gerekmez, saf C#.
+Elimizde şu sınıflar var (KafeIleri namespace):
+- VardiyaAyar { double robotHizi; double vardiya; double ortalamaGelis; PilAyar pil; ... } ve PilAyar { double baslangic, esik, hedef, yuruTuketim, bekleTuketim, sarjHizi; }
+- MesafeTablosu(double[,] m) : IMesafe; nokta sayısı 16 (0 bekleme, 1 tezgâh, 2 şarj, 3 kapı, 4..9 servis, 10..15 oturma)
+- HizliBenzetim.Kos(VardiyaAyar a, MesafeTablosu d) -> (VardiyaSonucu sonuc, RobotProgrami program)
+- RobotProgrami.makine.Gunluk : List<string>, her öğe "EskiDurum > Olay > YeniDurum" ya da "... > RED"
+- Durumlar: Bekle, SiparisAl, ServisYap, SarjOl. Olaylar: MusteriGeldi, SiparisAlindi, ServisBitti, PilAzaldi, PilDoldu.
+Test: bütün mesafeleri 5 metre olan bir tablo kur, pil başlangıcını eşiğin altında ver (baslangic 20, esik 30).
+Robotun ilk geçişi "Bekle > PilAzaldi > SarjOl" olmalı, yani pil azken yeni müşteri almamalı. Ayrıca vardiya boyunca hiçbir "SarjOl > MusteriGeldi" geçişi kabul edilmemeli.
+Yalnız dosyanın C# kodunu ver, açıklama yazma, kod bloğu işareti koyma.

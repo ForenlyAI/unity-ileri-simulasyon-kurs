@@ -1,0 +1,11 @@
+{
+  "baslangic": 60,
+  "esik": 30,
+  "hedef": 90,
+  "yuru_tuketim": 0.04,
+  "bekle_tuketim": 0.005,
+  "sarj_hizi": 0.25,
+  "esige_yuruyus_s": 750,
+  "dolma_s": 240,
+  "tam_yuruyus_dk": 41.7
+}

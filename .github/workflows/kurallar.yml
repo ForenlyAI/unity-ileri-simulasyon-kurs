@@ -1,0 +1,13 @@
+# Unity lisansı gerektirmeyen denetim: saf C# kurallar + beklenen dosyaların tutarlılığı.
+# Unity'nin kendi CI iş akışı (lisans ister) ci/unity-ci.yml dosyasında; açıklaması README'de.
+name: kurallar
+on: [push, pull_request]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-dotnet@v4
+        with: { dotnet-version: '8.0.x' }
+      - run: dotnet test kurallar-dotnet --logger "trx;LogFileName=kurallar.trx"
+      - run: python3 kontrol.py
