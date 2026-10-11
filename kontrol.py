@@ -7,7 +7,7 @@ import json, pathlib, sys
 K = pathlib.Path(__file__).resolve().parent
 B = K / "beklenen" / "olcumler"
 MAKINEYE_BAGLI = ("_ms", "ms_", "bellek", "derleme_s", "profil_kb", "kare", "gc_", "en_yakin", "kapi_masa", "yurunen", "sure_s", "yol_m", "ort_", "en_uzun", "en_dusuk", "musteri_", "takilan", "paket_kb", "toplam_kb")
-KURS_KOSUMU = {"hata-donme", "kayit", "web-ci"}   # Unity testi yazmaz: kurs hazırlanırken alınan kayıt
+KURS_KOSUMU = {"hata-donme", "kayit", "web-ci", "gorsel"}   # Unity testi yazmaz: kurs hazırlanırken alınan kayıt
 CANLI = {"vardiya-canli", "yuruyus", "kacinma", "profil", "darbogaz", "addr-yukleme", "addressables", "gorsel"}
 def duz(d, on=""):
     for a, v in d.items():
