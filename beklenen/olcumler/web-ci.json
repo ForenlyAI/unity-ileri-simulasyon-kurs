@@ -12,5 +12,7 @@
  "ci_adim": 15,
  "ci_gizli": 3,
  "ci_hedef": "WebGL",
- "ci_not": "unity license activate --personal does NOT work here"
+ "ci_not": "unity license activate --personal does NOT work here",
+ "ilk_addressables_derleme_s": 126.7,
+ "ilk_addressables_derleme_not": "projedeki ilk EditMode koşumu, Grup_Ve_Derleme testi 126,66 sn (2026-10-11 16:09)"
 }

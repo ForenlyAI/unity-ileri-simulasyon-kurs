@@ -1,11 +1,11 @@
 {
   "etiketli": 3,
-  "yukle_ms": 22.1,
+  "yukle_ms": 32.2,
   "kopya": 20,
-  "cogalt_ms": 14.3,
+  "cogalt_ms": 14.4,
   "paket_once": 0,
   "paket_yuklu": 2,
   "paket_sonra": 0,
-  "bellek_artis_kb": 2248,
+  "bellek_artis_kb": 2166,
   "tutamac_gecerli": false
 }

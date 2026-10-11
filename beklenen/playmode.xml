@@ -1,84 +1,84 @@
 <?xml version="1.0" encoding="utf-8"?>
-<test-run id="2" testcasecount="9" result="Passed" total="9" passed="7" failed="0" inconclusive="0" skipped="2" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-11 16:58:05Z" end-time="2026-10-11 16:58:17Z" duration="12.6919787">
-  <test-suite type="TestSuite" id="1021" name="kafe-robot-ileri" fullname="kafe-robot-ileri" runstate="Runnable" testcasecount="9" result="Passed" start-time="2026-10-11 16:58:05Z" end-time="2026-10-11 16:58:17Z" duration="12.691979" total="9" passed="7" failed="0" inconclusive="0" skipped="2" asserts="0">
+<test-run id="2" testcasecount="9" result="Passed" total="9" passed="7" failed="0" inconclusive="0" skipped="2" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-11 17:43:15Z" end-time="2026-10-11 17:43:30Z" duration="14.8969205">
+  <test-suite type="TestSuite" id="1021" name="kafe-robot-ileri" fullname="kafe-robot-ileri" runstate="Runnable" testcasecount="9" result="Passed" start-time="2026-10-11 17:43:15Z" end-time="2026-10-11 17:43:30Z" duration="14.896921" total="9" passed="7" failed="0" inconclusive="0" skipped="2" asserts="0">
     <properties>
       <property name="platform" value="PlayMode" />
     </properties>
-    <test-suite type="Assembly" id="1015" name="KafeIleri.Tests.PlayMode.dll" fullname="kafe-robot-ileri/Library/ScriptAssemblies/KafeIleri.Tests.PlayMode.dll" runstate="Runnable" testcasecount="9" result="Passed" start-time="2026-10-11 16:58:05Z" end-time="2026-10-11 16:58:17Z" duration="12.682684" total="9" passed="7" failed="0" inconclusive="0" skipped="2" asserts="0">
+    <test-suite type="Assembly" id="1015" name="KafeIleri.Tests.PlayMode.dll" fullname="kafe-robot-ileri/Library/ScriptAssemblies/KafeIleri.Tests.PlayMode.dll" runstate="Runnable" testcasecount="9" result="Passed" start-time="2026-10-11 17:43:15Z" end-time="2026-10-11 17:43:30Z" duration="14.887867" total="9" passed="7" failed="0" inconclusive="0" skipped="2" asserts="0">
       <properties>
-        <property name="_PID" value="3891692" />
+        <property name="_PID" value="3904369" />
         <property name="_APPDOMAIN" value="Unity Child Domain" />
         <property name="platform" value="PlayMode" />
         <property name="EditorOnly" value="False" />
       </properties>
-      <test-suite type="TestSuite" id="1016" name="KafeIleri" fullname="KafeIleri" runstate="Runnable" testcasecount="9" result="Passed" start-time="2026-10-11 16:58:05Z" end-time="2026-10-11 16:58:17Z" duration="12.682229" total="9" passed="7" failed="0" inconclusive="0" skipped="2" asserts="0">
+      <test-suite type="TestSuite" id="1016" name="KafeIleri" fullname="KafeIleri" runstate="Runnable" testcasecount="9" result="Passed" start-time="2026-10-11 17:43:15Z" end-time="2026-10-11 17:43:30Z" duration="14.887438" total="9" passed="7" failed="0" inconclusive="0" skipped="2" asserts="0">
         <properties />
-        <test-suite type="TestSuite" id="1017" name="Testler" fullname="KafeIleri.Testler" runstate="Runnable" testcasecount="9" result="Passed" start-time="2026-10-11 16:58:05Z" end-time="2026-10-11 16:58:17Z" duration="12.681921" total="9" passed="7" failed="0" inconclusive="0" skipped="2" asserts="0">
+        <test-suite type="TestSuite" id="1017" name="Testler" fullname="KafeIleri.Testler" runstate="Runnable" testcasecount="9" result="Passed" start-time="2026-10-11 17:43:15Z" end-time="2026-10-11 17:43:30Z" duration="14.887111" total="9" passed="7" failed="0" inconclusive="0" skipped="2" asserts="0">
           <properties />
-          <test-suite type="TestFixture" id="1006" name="AddressablesYuklemeTestleri" fullname="KafeIleri.Testler.AddressablesYuklemeTestleri" classname="KafeIleri.Testler.AddressablesYuklemeTestleri" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-10-11 16:58:05Z" end-time="2026-10-11 16:58:05Z" duration="0.365955" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <test-suite type="TestFixture" id="1006" name="AddressablesYuklemeTestleri" fullname="KafeIleri.Testler.AddressablesYuklemeTestleri" classname="KafeIleri.Testler.AddressablesYuklemeTestleri" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-10-11 17:43:15Z" end-time="2026-10-11 17:43:16Z" duration="0.578514" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
             <properties />
-            <test-case id="1007" name="Yukle_Cogalt_Birak" fullname="KafeIleri.Testler.AddressablesYuklemeTestleri.Yukle_Cogalt_Birak" methodname="Yukle_Cogalt_Birak" classname="KafeIleri.Testler.AddressablesYuklemeTestleri" runstate="Runnable" seed="853500510" result="Passed" start-time="2026-10-11 16:58:05Z" end-time="2026-10-11 16:58:05Z" duration="0.353535" asserts="0">
+            <test-case id="1007" name="Yukle_Cogalt_Birak" fullname="KafeIleri.Testler.AddressablesYuklemeTestleri.Yukle_Cogalt_Birak" methodname="Yukle_Cogalt_Birak" classname="KafeIleri.Testler.AddressablesYuklemeTestleri" runstate="Runnable" seed="1407163396" result="Passed" start-time="2026-10-11 17:43:15Z" end-time="2026-10-11 17:43:16Z" duration="0.566231" asserts="0">
               <properties>
                 <property name="_JOINTYPE" value="UnityCombinatorial" />
                 <property name="retryIteration" value="0" />
                 <property name="repeatIteration" value="0" />
               </properties>
               <output><![CDATA[Asset bundles built with build target WebGL may not be compatible with running in the Editor.
-[Olcum] addr-yukleme: {   "etiketli": 3,   "yukle_ms": 22.1,   "kopya": 20,   "cogalt_ms": 14.3,   "paket_once": 0,   "paket_yuklu": 2,   "paket_sonra": 0,   "bellek_artis_kb": 2248,   "tutamac_gecerli": false }
+[Olcum] addr-yukleme: {   "etiketli": 3,   "yukle_ms": 32.2,   "kopya": 20,   "cogalt_ms": 14.4,   "paket_once": 0,   "paket_yuklu": 2,   "paket_sonra": 0,   "bellek_artis_kb": 2166,   "tutamac_gecerli": false }
 ]]></output>
             </test-case>
           </test-suite>
-          <test-suite type="TestFixture" id="1008" name="GorselKayit" fullname="KafeIleri.Testler.GorselKayit" classname="KafeIleri.Testler.GorselKayit" runstate="Explicit" testcasecount="2" result="Skipped" label="Explicit" site="SetUp" start-time="2026-10-11 16:58:05Z" end-time="2026-10-11 16:58:05Z" duration="0.001593" total="2" passed="0" failed="0" inconclusive="0" skipped="2" asserts="0">
+          <test-suite type="TestFixture" id="1008" name="GorselKayit" fullname="KafeIleri.Testler.GorselKayit" classname="KafeIleri.Testler.GorselKayit" runstate="Explicit" testcasecount="2" result="Skipped" label="Explicit" site="SetUp" start-time="2026-10-11 17:43:16Z" end-time="2026-10-11 17:43:16Z" duration="0.001656" total="2" passed="0" failed="0" inconclusive="0" skipped="2" asserts="0">
             <properties>
               <property name="Category" value="Gorsel" />
             </properties>
-            <test-case id="1010" name="FotoSerisi" fullname="KafeIleri.Testler.GorselKayit.FotoSerisi" methodname="FotoSerisi" classname="KafeIleri.Testler.GorselKayit" runstate="Runnable" seed="1608348429" result="Skipped" label="Explicit" site="Parent" start-time="0001-01-01 00:00:00Z" end-time="0001-01-01 00:00:00Z" duration="0.000000" asserts="0">
+            <test-case id="1010" name="FotoSerisi" fullname="KafeIleri.Testler.GorselKayit.FotoSerisi" methodname="FotoSerisi" classname="KafeIleri.Testler.GorselKayit" runstate="Runnable" seed="1664610460" result="Skipped" label="Explicit" site="Parent" start-time="0001-01-01 00:00:00Z" end-time="0001-01-01 00:00:00Z" duration="0.000000" asserts="0">
               <properties>
                 <property name="_JOINTYPE" value="UnityCombinatorial" />
               </properties>
             </test-case>
-            <test-case id="1009" name="Kareler" fullname="KafeIleri.Testler.GorselKayit.Kareler" methodname="Kareler" classname="KafeIleri.Testler.GorselKayit" runstate="Runnable" seed="847618669" result="Skipped" label="Explicit" site="Parent" start-time="0001-01-01 00:00:00Z" end-time="0001-01-01 00:00:00Z" duration="0.000000" asserts="0">
+            <test-case id="1009" name="Kareler" fullname="KafeIleri.Testler.GorselKayit.Kareler" methodname="Kareler" classname="KafeIleri.Testler.GorselKayit" runstate="Runnable" seed="425066401" result="Skipped" label="Explicit" site="Parent" start-time="0001-01-01 00:00:00Z" end-time="0001-01-01 00:00:00Z" duration="0.000000" asserts="0">
               <properties>
                 <property name="_JOINTYPE" value="UnityCombinatorial" />
               </properties>
             </test-case>
           </test-suite>
-          <test-suite type="TestFixture" id="1003" name="ProfilerTestleri" fullname="KafeIleri.Testler.ProfilerTestleri" classname="KafeIleri.Testler.ProfilerTestleri" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-10-11 16:58:05Z" end-time="2026-10-11 16:58:09Z" duration="3.623795" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <test-suite type="TestFixture" id="1003" name="ProfilerTestleri" fullname="KafeIleri.Testler.ProfilerTestleri" classname="KafeIleri.Testler.ProfilerTestleri" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-10-11 17:43:16Z" end-time="2026-10-11 17:43:21Z" duration="5.599023" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
             <properties />
-            <test-case id="1004" name="Ajan_Sayisi_Ve_Kare_Suresi" fullname="KafeIleri.Testler.ProfilerTestleri.Ajan_Sayisi_Ve_Kare_Suresi" methodname="Ajan_Sayisi_Ve_Kare_Suresi" classname="KafeIleri.Testler.ProfilerTestleri" runstate="Runnable" seed="1404114200" result="Passed" start-time="2026-10-11 16:58:05Z" end-time="2026-10-11 16:58:07Z" duration="1.976186" asserts="0">
+            <test-case id="1004" name="Ajan_Sayisi_Ve_Kare_Suresi" fullname="KafeIleri.Testler.ProfilerTestleri.Ajan_Sayisi_Ve_Kare_Suresi" methodname="Ajan_Sayisi_Ve_Kare_Suresi" classname="KafeIleri.Testler.ProfilerTestleri" runstate="Runnable" seed="96235301" result="Passed" start-time="2026-10-11 17:43:16Z" end-time="2026-10-11 17:43:19Z" duration="3.166829" asserts="0">
               <properties>
                 <property name="_JOINTYPE" value="UnityCombinatorial" />
                 <property name="retryIteration" value="0" />
                 <property name="repeatIteration" value="0" />
               </properties>
-              <output><![CDATA[[Olcum] profil: {   "butce60_ms": 16.67,   "butce30_ms": 33.33,   "ajan_10": {     "ajan": 10,     "her_kare_yol": false,     "kare": 300,     "kare_ms_ortanca": 0.53,     "kare_ms_95": 0.92,     "yol_cagri_kare": 0,     "yol_ms_ort": 0,     "gc_bayt_ort": 482   },   "ajan_50": {     "ajan": 50,     "her_kare_yol": false,     "kare": 300,     "kare_ms_ortanca": 0.7,     "kare_ms_95": 0.78,     "yol_cagri_kare": 0,     "yol_ms_ort": 0,     "gc_bayt_ort": 492   },   "ajan_100": {     "ajan": 100,     "her_kare_yol": false,     "kare": 300,     "kare_ms_ortanca": 1.35,     "kare_ms_95": 1.64,     "yol_cagri_kare": 0,     "yol_ms_ort": 0,     "gc_bayt_ort": 515   },   "profil_dosyasi": "profil-100-ajan.raw",   "profil_kb": 14974 }
+              <output><![CDATA[[Olcum] profil: {   "butce60_ms": 16.67,   "butce30_ms": 33.33,   "ajan_10": {     "ajan": 10,     "her_kare_yol": false,     "kare": 300,     "kare_ms_ortanca": 0.41,     "kare_ms_95": 0.66,     "yol_cagri_kare": 0,     "yol_ms_ort": 0,     "gc_bayt_ort": 492   },   "ajan_50": {     "ajan": 50,     "her_kare_yol": false,     "kare": 300,     "kare_ms_ortanca": 0.77,     "kare_ms_95": 1.03,     "yol_cagri_kare": 0,     "yol_ms_ort": 0,     "gc_bayt_ort": 502   },   "ajan_100": {     "ajan": 100,     "her_kare_yol": false,     "kare": 300,     "kare_ms_ortanca": 1.83,     "kare_ms_95": 2.58,     "yol_cagri_kare": 0,     "yol_ms_ort": 0,     "gc_bayt_ort": 526   },   "profil_dosyasi": "profil-100-ajan.raw",   "profil_kb": 14989 }
 ]]></output>
             </test-case>
-            <test-case id="1005" name="Her_Kare_Yol_Hesabi_Darbogaz" fullname="KafeIleri.Testler.ProfilerTestleri.Her_Kare_Yol_Hesabi_Darbogaz" methodname="Her_Kare_Yol_Hesabi_Darbogaz" classname="KafeIleri.Testler.ProfilerTestleri" runstate="Runnable" seed="2022675076" result="Passed" start-time="2026-10-11 16:58:07Z" end-time="2026-10-11 16:58:09Z" duration="1.646510" asserts="0">
+            <test-case id="1005" name="Her_Kare_Yol_Hesabi_Darbogaz" fullname="KafeIleri.Testler.ProfilerTestleri.Her_Kare_Yol_Hesabi_Darbogaz" methodname="Her_Kare_Yol_Hesabi_Darbogaz" classname="KafeIleri.Testler.ProfilerTestleri" runstate="Runnable" seed="1012185334" result="Passed" start-time="2026-10-11 17:43:19Z" end-time="2026-10-11 17:43:21Z" duration="2.430992" asserts="0">
               <properties>
                 <property name="_JOINTYPE" value="UnityCombinatorial" />
                 <property name="retryIteration" value="0" />
                 <property name="repeatIteration" value="0" />
               </properties>
-              <output><![CDATA[[Olcum] darbogaz: {   "hedef_degisince": {     "ajan": 100,     "her_kare_yol": false,     "kare": 300,     "kare_ms_ortanca": 1.07,     "kare_ms_95": 1.2,     "yol_cagri_kare": 0,     "yol_ms_ort": 0,     "gc_bayt_ort": 502   },   "her_kare": {     "ajan": 100,     "her_kare_yol": true,     "kare": 300,     "kare_ms_ortanca": 1.46,     "kare_ms_95": 1.64,     "yol_cagri_kare": 100,     "yol_ms_ort": 0.334,     "gc_bayt_ort": 502   } }
-]]></output>
-            </test-case>
-          </test-suite>
-          <test-suite type="TestFixture" id="1001" name="VardiyaCanliTestleri" fullname="KafeIleri.Testler.VardiyaCanliTestleri" classname="KafeIleri.Testler.VardiyaCanliTestleri" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-10-11 16:58:09Z" end-time="2026-10-11 16:58:16Z" duration="7.383809" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
-            <properties />
-            <test-case id="1002" name="Bir_Saatlik_Canli_Vardiya" fullname="KafeIleri.Testler.VardiyaCanliTestleri.Bir_Saatlik_Canli_Vardiya" methodname="Bir_Saatlik_Canli_Vardiya" classname="KafeIleri.Testler.VardiyaCanliTestleri" runstate="Runnable" seed="183270521" result="Passed" start-time="2026-10-11 16:58:09Z" end-time="2026-10-11 16:58:16Z" duration="7.382175" asserts="0">
-              <properties>
-                <property name="_JOINTYPE" value="UnityCombinatorial" />
-                <property name="retryIteration" value="0" />
-                <property name="repeatIteration" value="0" />
-              </properties>
-              <output><![CDATA[[Olcum] vardiya-canli: {   "gelen": 20,   "kacan": 0,   "oturan": 20,   "servis": 20,   "bekleyen": 0,   "ort_bekleme_s": 72.2,   "en_uzun_bekleme_s": 343.8,   "ort_servis_s": 145.4,   "sarj": 1,   "en_dusuk_pil": 29.1,   "pil_bitti": false,   "yol_m": 383.8,   "kabul": 62,   "red": 0,   "en_uzun_sira": 2,   "kare": 18014,   "ort_kapi_masa_s": 9.3,   "hesap_kapi_masa_s": 8.1,   "en_yakin_iki_musteri_m": 0.38,   "en_yakin_robot_musteri_m": 0.37,   "addressables_yukleme_ms": 4.1,   "musteri_kapi_masa_s": [9.3, 8.8, 6.4, 5.5, 9.3, 6.3, 9.2, 9.9, 9.2, 9.4, 10.6, 9.7, 6.4, 10.3, 12.2, 5.5, 10.5, 6.3, 21, 10.2],   "musteri_masa": [4, 5, 1, 2, 6, 3, 4, 5, 6, 4, 6, 4, 3, 6, 4, 2, 4, 1, 4, 5],   "takilan": [],   "gecis_gunlugu": ["Bekle > MusteriGeldi > SiparisAl", "SiparisAl > SiparisAlindi > ServisYap", "ServisYap > ServisBitti > Bekle", "Bekle > MusteriGeldi > SiparisAl", "SiparisAl > SiparisAlindi > ServisYap", "ServisYap > ServisBitti > Bekle", "Bekle > MusteriGeldi > SiparisAl", "SiparisAl > SiparisAlindi > ServisYap"] }
+              <output><![CDATA[[Olcum] darbogaz: {   "hedef_degisince": {     "ajan": 100,     "her_kare_yol": false,     "kare": 300,     "kare_ms_ortanca": 1.53,     "kare_ms_95": 2.08,     "yol_cagri_kare": 0,     "yol_ms_ort": 0,     "gc_bayt_ort": 513   },   "her_kare": {     "ajan": 100,     "her_kare_yol": true,     "kare": 300,     "kare_ms_ortanca": 1.35,     "kare_ms_95": 2.14,     "yol_cagri_kare": 100,     "yol_ms_ort": 0.277,     "gc_bayt_ort": 502   } }
 ]]></output>
             </test-case>
           </test-suite>
-          <test-suite type="TestFixture" id="1011" name="YolTestleri" fullname="KafeIleri.Testler.YolTestleri" classname="KafeIleri.Testler.YolTestleri" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-10-11 16:58:16Z" end-time="2026-10-11 16:58:17Z" duration="1.305404" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <test-suite type="TestFixture" id="1001" name="VardiyaCanliTestleri" fullname="KafeIleri.Testler.VardiyaCanliTestleri" classname="KafeIleri.Testler.VardiyaCanliTestleri" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-10-11 17:43:21Z" end-time="2026-10-11 17:43:29Z" duration="7.426494" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
             <properties />
-            <test-case id="1013" name="Engel_Yolu_Degistirir" fullname="KafeIleri.Testler.YolTestleri.Engel_Yolu_Degistirir" methodname="Engel_Yolu_Degistirir" classname="KafeIleri.Testler.YolTestleri" runstate="Runnable" seed="1183714653" result="Passed" start-time="2026-10-11 16:58:16Z" end-time="2026-10-11 16:58:16Z" duration="0.210229" asserts="0">
+            <test-case id="1002" name="Bir_Saatlik_Canli_Vardiya" fullname="KafeIleri.Testler.VardiyaCanliTestleri.Bir_Saatlik_Canli_Vardiya" methodname="Bir_Saatlik_Canli_Vardiya" classname="KafeIleri.Testler.VardiyaCanliTestleri" runstate="Runnable" seed="277904607" result="Passed" start-time="2026-10-11 17:43:21Z" end-time="2026-10-11 17:43:29Z" duration="7.424686" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[Olcum] vardiya-canli: {   "gelen": 20,   "kacan": 1,   "oturan": 19,   "servis": 19,   "bekleyen": 0,   "ort_bekleme_s": 76.3,   "en_uzun_bekleme_s": 344.6,   "ort_servis_s": 152.2,   "sarj": 1,   "en_dusuk_pil": 28.6,   "pil_bitti": false,   "yol_m": 387.9,   "kabul": 59,   "red": 1,   "en_uzun_sira": 2,   "kare": 18011,   "ort_kapi_masa_s": 7.9,   "hesap_kapi_masa_s": 7.7,   "en_yakin_iki_musteri_m": 0.38,   "en_yakin_robot_musteri_m": 0.37,   "addressables_yukleme_ms": 3.5,   "musteri_kapi_masa_s": [9.3, 8.8, 6.4, 5.5, 9.3, 6.3, 9.2, 9.9, 9.2, 6.4, 9.4, 8.9, 5.6, 9.3, 6.4, 6.3, 9.7, 9.3, 5.4],   "musteri_masa": [4, 5, 1, 2, 6, 3, 4, 5, 6, 3, 4, 5, 2, 6, 3, 1, 5, 4, 2],   "takilan": [],   "gecis_gunlugu": ["Bekle > MusteriGeldi > SiparisAl", "SiparisAl > SiparisAlindi > ServisYap", "ServisYap > ServisBitti > Bekle", "Bekle > MusteriGeldi > SiparisAl", "SiparisAl > SiparisAlindi > ServisYap", "ServisYap > ServisBitti > Bekle", "Bekle > MusteriGeldi > SiparisAl", "SiparisAl > SiparisAlindi > ServisYap"] }
+]]></output>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1011" name="YolTestleri" fullname="KafeIleri.Testler.YolTestleri" classname="KafeIleri.Testler.YolTestleri" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-10-11 17:43:29Z" end-time="2026-10-11 17:43:30Z" duration="1.279938" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1013" name="Engel_Yolu_Degistirir" fullname="KafeIleri.Testler.YolTestleri.Engel_Yolu_Degistirir" methodname="Engel_Yolu_Degistirir" classname="KafeIleri.Testler.YolTestleri" runstate="Runnable" seed="928320282" result="Passed" start-time="2026-10-11 17:43:29Z" end-time="2026-10-11 17:43:29Z" duration="0.241387" asserts="0">
               <properties>
                 <property name="_JOINTYPE" value="UnityCombinatorial" />
                 <property name="retryIteration" value="0" />
@@ -87,7 +87,7 @@
               <output><![CDATA[[Olcum] engel: {   "hedef": "Masa2Servis",   "once_m": 6.72,   "once_kose": 3,   "sonra_m": 6.84,   "sonra_kose": 4,   "sonra_durum": "PathComplete",   "fark_m": 0.12,   "kapi_durum": "PathPartial" }
 ]]></output>
             </test-case>
-            <test-case id="1014" name="Iki_Ajan_Karsilasir" fullname="KafeIleri.Testler.YolTestleri.Iki_Ajan_Karsilasir" methodname="Iki_Ajan_Karsilasir" classname="KafeIleri.Testler.YolTestleri" runstate="Runnable" seed="658149097" result="Passed" start-time="2026-10-11 16:58:16Z" end-time="2026-10-11 16:58:17Z" duration="0.669698" asserts="0">
+            <test-case id="1014" name="Iki_Ajan_Karsilasir" fullname="KafeIleri.Testler.YolTestleri.Iki_Ajan_Karsilasir" methodname="Iki_Ajan_Karsilasir" classname="KafeIleri.Testler.YolTestleri" runstate="Runnable" seed="1662577960" result="Passed" start-time="2026-10-11 17:43:29Z" end-time="2026-10-11 17:43:30Z" duration="0.632237" asserts="0">
               <properties>
                 <property name="_JOINTYPE" value="UnityCombinatorial" />
                 <property name="retryIteration" value="0" />
@@ -96,7 +96,7 @@
               <output><![CDATA[[Olcum] kacinma: {   "kacinmasiz_en_yakin_m": 0.03,   "yaricap_toplam": 0.5,   "kacinmali_en_yakin_m": 0.5 }
 ]]></output>
             </test-case>
-            <test-case id="1012" name="Robot_Masaya_Yurur" fullname="KafeIleri.Testler.YolTestleri.Robot_Masaya_Yurur" methodname="Robot_Masaya_Yurur" classname="KafeIleri.Testler.YolTestleri" runstate="Runnable" seed="482194502" result="Passed" start-time="2026-10-11 16:58:17Z" end-time="2026-10-11 16:58:17Z" duration="0.423929" asserts="0">
+            <test-case id="1012" name="Robot_Masaya_Yurur" fullname="KafeIleri.Testler.YolTestleri.Robot_Masaya_Yurur" methodname="Robot_Masaya_Yurur" classname="KafeIleri.Testler.YolTestleri" runstate="Runnable" seed="2071973829" result="Passed" start-time="2026-10-11 17:43:30Z" end-time="2026-10-11 17:43:30Z" duration="0.405080" asserts="0">
               <properties>
                 <property name="_JOINTYPE" value="UnityCombinatorial" />
                 <property name="retryIteration" value="0" />

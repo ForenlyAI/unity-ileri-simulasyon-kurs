@@ -28,7 +28,7 @@ Yapay zekâ ajanları Unity'ye yalnız Unity'nin kendi araçlarıyla bağlanır 
 ```bash
 cd kafe-robot-ileri
 unity run . -- -executeMethod KafeIleri.EditorAraclari.SahneKurucu.Kur        # sahne, NavMesh, prefablar, Addressables grubu
-unity test . --mode EditMode --output ../editmode.xml                            # 20 test (Addressables grubunu da derler)
+unity test . --mode EditMode --output ../editmode.xml                            # 20 test (Addressables grubunu da derler; 5'i Claude Code'un)
 unity test . --mode PlayMode --output ../playmode.xml                            # 7 test + 2 görüntü testi (yalnız adıyla)
 cd .. && python3 kontrol.py kafe-robot-ileri/Olcumler                            # sonuçlarınız beklenenle aynı mı
 ```

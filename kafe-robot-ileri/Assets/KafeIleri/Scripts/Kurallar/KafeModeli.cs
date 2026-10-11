@@ -19,7 +19,7 @@ namespace KafeIleri
     {
         public int no, masa = -1;
         public double kapi, oturma = -1, siparis = -1, servis = -1, kalkis = -1;
-        public bool kacti, alindi;
+        public bool kacti, alindi, kalkti;
         public double Bekleme => siparis - oturma;
     }
 
@@ -48,7 +48,7 @@ namespace KafeIleri
         void Bosalt(double t)
         {
             foreach (var m in musteriler)
-                if (m.masa >= 0 && m.kalkis >= 0 && m.kalkis <= t && dolu[m.masa]) dolu[m.masa] = false;
+                if (m.masa >= 0 && !m.kalkti && m.kalkis >= 0 && m.kalkis <= t) { dolu[m.masa] = false; m.kalkti = true; }   // her müşteri masasını bir kez boşaltır
         }
 
         public void Ilerle(double t)

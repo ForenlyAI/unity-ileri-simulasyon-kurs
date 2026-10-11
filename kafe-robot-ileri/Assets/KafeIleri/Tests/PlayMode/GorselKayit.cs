@@ -124,18 +124,6 @@ namespace KafeIleri.Testler
             Kaydet(yan, "1.2-kacinma-yan");
             Object.Destroy(x1.gameObject); Object.Destroy(x2.gameObject); Object.Destroy(yan.gameObject);
 
-            // 3.3 · Addressables'tan çoğaltılan yirmi müşteri
-            var kopyalar = new List<GameObject>();
-            for (int i = 0; i < 20; i++)
-            {
-                var ih = Addressables.InstantiateAsync("Musteri", new Vector3(-4 + (i % 5) * 2, 0, -3 + (i / 5) * 1.5f), Quaternion.identity);
-                yield return ih; kopyalar.Add(ih.Result);
-            }
-            yield return null;
-            Kaydet(ana, "3.3-addressables-yirmi");
-            foreach (var k in kopyalar) Addressables.ReleaseInstance(k);
-            yield return null;
-
             // 3.1 · yüz müşteri
             var r = new System.Random(3);
             var kalabalik = new List<GameObject>();
@@ -153,6 +141,7 @@ namespace KafeIleri.Testler
             // Canlı vardiya: kalabalık bir saat (gelişler sık, ÖRNEK); durum değişince kare
             Time.captureFramerate = 20; Time.timeScale = 4f;
             y.ayar = new VardiyaAyar { ortalamaGelis = 60, vardiya = 3000 };
+            y.addressablesKullan = false;   // editörde paketteki gölgelendirici bu grafik arka ucunda çizilmiyor (pembe); görüntü için doğrudan şablon
             var cekilen = new HashSet<string>();
             y.StartCoroutine(y.Baslat());
             int kare = 0;
@@ -184,6 +173,7 @@ namespace KafeIleri.Testler
             var y = Oyun.Yonetici; var ana = Camera.main; var ust = UstKamera();
             var yan = YanKamera(Vector3.zero, Vector3.one);
             y.ayar = new VardiyaAyar { ortalamaGelis = 45, vardiya = 3600, tohum = 21 };
+            y.addressablesKullan = false;
             y.StartCoroutine(y.Baslat());
             var aci = new[] { new Vector3(2.2f, 1.7f, -2.6f), new Vector3(-2.4f, 1.9f, -2.2f), new Vector3(0.2f, 2.6f, -3.4f), new Vector3(3.0f, 1.2f, 1.2f), new Vector3(-1.6f, 3.2f, 2.4f), new Vector3(0f, 1.4f, 2.8f) };
             int kare = 0, no = 0;

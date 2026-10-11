@@ -3,20 +3,20 @@
     "ajan": 100,
     "her_kare_yol": false,
     "kare": 300,
-    "kare_ms_ortanca": 1.07,
-    "kare_ms_95": 1.2,
+    "kare_ms_ortanca": 1.53,
+    "kare_ms_95": 2.08,
     "yol_cagri_kare": 0,
     "yol_ms_ort": 0,
-    "gc_bayt_ort": 502
+    "gc_bayt_ort": 513
   },
   "her_kare": {
     "ajan": 100,
     "her_kare_yol": true,
     "kare": 300,
-    "kare_ms_ortanca": 1.46,
-    "kare_ms_95": 1.64,
+    "kare_ms_ortanca": 1.35,
+    "kare_ms_95": 2.14,
     "yol_cagri_kare": 100,
-    "yol_ms_ort": 0.334,
+    "yol_ms_ort": 0.277,
     "gc_bayt_ort": 502
   }
 }
