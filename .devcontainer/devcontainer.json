@@ -1,20 +1,11 @@
 {
   "name": "Unity ileri simülasyon — kod, test ve derleme katmanı",
-  "image": "mcr.microsoft.com/devcontainers/dotnet:1-8.0-bookworm",
-  "hostRequirements": {
-    "cpus": 2
-  },
-  "postCreateCommand": "dotnet restore kurallar-dotnet",
-  "customizations": {
-    "vscode": {
-      "extensions": [
-        "ms-dotnettools.csharp"
-      ]
-    }
-  },
+  "image": "mcr.microsoft.com/devcontainers/base:bookworm",
   "features": {
-    "ghcr.io/devcontainers/features/sshd:1": {
-      "version": "latest"
-    }
-  }
+    "ghcr.io/devcontainers/features/dotnet:2": { "version": "8.0" },
+    "ghcr.io/devcontainers/features/sshd:1": { "version": "latest" }
+  },
+  "hostRequirements": { "cpus": 2 },
+  "postCreateCommand": "python3 --version && dotnet restore kurallar-dotnet",
+  "customizations": { "vscode": { "extensions": ["ms-dotnettools.csharp"] } }
 }
